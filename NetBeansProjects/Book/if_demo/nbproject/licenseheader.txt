@@ -1,0 +1,14 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}
+${licensePrefix}Alan Treviño
+${licensePrefix}Copyright ${date?date?string("yyyy")}
+${licensePrefix}
+${licensePrefix}Edited: 
+${licensePrefix}
+${licensePrefix}
+${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>
